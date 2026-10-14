@@ -5,6 +5,8 @@
 </picture>
 
 <p>
+  <a href="https://juan-agustin-garcia.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-visit-FF5A1F?style=flat-square&logo=vercel&logoColor=white&labelColor=0b0c0a" /></a>
+  <a href="https://juan-agustin-garcia.vercel.app/cv/Juan-Agustin-Garcia-Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-PDF-FF5A1F?style=flat-square&logo=adobeacrobatreader&logoColor=white&labelColor=0b0c0a" /></a>
   <a href="https://www.linkedin.com/in/juan-agust%C3%ADn-garcia-067754279"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-FF5A1F?style=flat-square&logo=linkedin&logoColor=white&labelColor=0b0c0a" /></a>
   <a href="mailto:juanagustingarcia74@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-write_me-FF5A1F?style=flat-square&logo=gmail&logoColor=white&labelColor=0b0c0a" /></a>
 </p>
@@ -75,5 +77,5 @@ I build software for problems I see up close: the virtual classroom nobody check
 ---
 
 <p align="center">
-  <sub>Designed and built in Córdoba · <a href="mailto:juanagustingarcia74@gmail.com">juanagustingarcia74@gmail.com</a></sub>
+  <sub>Designed and built in Córdoba · <a href="https://juan-agustin-garcia.vercel.app">juan-agustin-garcia.vercel.app</a> · <a href="mailto:juanagustingarcia74@gmail.com">juanagustingarcia74@gmail.com</a></sub>
 </p>
