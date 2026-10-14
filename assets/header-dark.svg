@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Juan Agustín García — Full Stack Developer">
+  <style>
+    .bands { animation: spin 40s linear infinite; }
+    @keyframes spin { to { transform: translateX(-460px); } }
+    .bird { animation: fly linear infinite; }
+    @keyframes fly { from { transform: translateX(-260px); } to { transform: translateX(260px); } }
+    .wing { animation: flap ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    @keyframes flap { to { transform: scaleY(-.6); } }
+    .role { opacity: 0; animation: roles 9s infinite; }
+    .r1 { animation-delay: 3s; } .r2 { animation-delay: 6s; }
+    @keyframes roles { 0% { opacity: 0; transform: translateY(8px); } 5%, 30% { opacity: 1; transform: none; } 35%, 100% { opacity: 0; } }
+    .dot { animation: pulse 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { from { transform: scale(1); opacity: .7; } to { transform: scale(3); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .r0 { opacity: 1; } }
+  </style>
+  <defs>
+    <radialGradient id="shade" cx="30%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".06"/><stop offset=".6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".6"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0b0c0a"/>
+    
+  <clipPath id="pc"><circle cx="1010" cy="190" r="230"/></clipPath>
+  <g clip-path="url(#pc)">
+    <g transform="rotate(-8 1010 190)">
+      <g class="bands"><rect x="780" y="-40.0" width="920" height="46.5" fill="#151612"/><rect x="780" y="6.0" width="920" height="32.7" fill="#1d1e19"/><rect x="780" y="38.2" width="920" height="28.1" fill="#121310"/><rect x="780" y="65.8" width="920" height="41.9" fill="#24251f"/><rect x="780" y="107.2" width="920" height="32.7" fill="#181915"/><rect x="780" y="139.4" width="920" height="55.7" fill="#101110"/><rect x="780" y="194.6" width="920" height="37.3" fill="#212219"/><rect x="780" y="231.4" width="920" height="28.1" fill="#171814"/><rect x="780" y="259.0" width="920" height="32.7" fill="#2a2620"/><rect x="780" y="291.2" width="920" height="37.3" fill="#1a1b16"/><rect x="780" y="328.0" width="920" height="46.5" fill="#131411"/><rect x="780" y="374.0" width="920" height="46.5" fill="#22201b"/>
+        <ellipse cx="1067.5" cy="201.5" rx="41.4" ry="23.0" fill="#3a2015"/>
+        <ellipse cx="1527.5" cy="201.5" rx="41.4" ry="23.0" fill="#3a2015"/>
+      </g>
+    </g>
+    <circle cx="1010" cy="190" r="230" fill="url(#shade)"/>
+  </g>
+    <g class="bird" style="animation-duration:14.9s;animation-delay:-8.0s"><g transform="translate(328 63) scale(1.06)"><path class="wing" style="animation-duration:0.44s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:19.2s;animation-delay:-1.3s"><g transform="translate(-7 142) scale(0.63)"><path class="wing" style="animation-duration:0.37s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:16.7s;animation-delay:-10.5s"><g transform="translate(455 212) scale(0.69)"><path class="wing" style="animation-duration:0.59s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:14.6s;animation-delay:-12.5s"><g transform="translate(647 117) scale(1.28)"><path class="wing" style="animation-duration:0.42s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:23.8s;animation-delay:-4.3s"><g transform="translate(102 56) scale(0.82)"><path class="wing" style="animation-duration:0.50s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:14.8s;animation-delay:-0.9s"><g transform="translate(725 112) scale(0.98)"><path class="wing" style="animation-duration:0.40s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:21.0s;animation-delay:-9.5s"><g transform="translate(777 124) scale(0.82)"><path class="wing" style="animation-duration:0.42s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:20.9s;animation-delay:-11.0s"><g transform="translate(921 184) scale(0.77)"><path class="wing" style="animation-duration:0.57s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:15.4s;animation-delay:-6.4s"><g transform="translate(839 93) scale(1.29)"><path class="wing" style="animation-duration:0.54s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:22.0s;animation-delay:-16.8s"><g transform="translate(112 138) scale(0.63)"><path class="wing" style="animation-duration:0.49s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:21.1s;animation-delay:-12.3s"><g transform="translate(1023 99) scale(1.09)"><path class="wing" style="animation-duration:0.46s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:22.0s;animation-delay:-1.3s"><g transform="translate(978 238) scale(0.93)"><path class="wing" style="animation-duration:0.53s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:17.4s;animation-delay:-6.7s"><g transform="translate(735 248) scale(1.18)"><path class="wing" style="animation-duration:0.52s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:15.4s;animation-delay:-0.9s"><g transform="translate(-52 132) scale(0.72)"><path class="wing" style="animation-duration:0.54s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:24.5s;animation-delay:-2.0s"><g transform="translate(83 84) scale(0.87)"><path class="wing" style="animation-duration:0.46s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g><g class="bird" style="animation-duration:24.4s;animation-delay:-6.8s"><g transform="translate(612 224) scale(1.17)"><path class="wing" style="animation-duration:0.45s" d="M-8 -4 Q-3 -1 0 2 Q3 -1 8 -4" fill="none" stroke="#efeee7" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></g></g>
+    <text x="64" y="104" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#efeee7" letter-spacing="-1">Juan Agustín</text>
+    <text x="58" y="196" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="104" font-weight="800" fill="#efeee7" letter-spacing="-5">García</text>
+    <text class="role r0" x="64" y="236" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#ff5a1f">Full Stack Developer</text><text class="role r1" x="64" y="236" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#ff5a1f">Systems Engineering + AI @ UTN</text><text class="role r2" x="64" y="236" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#ff5a1f">From the database to the printer</text>
+    <g transform="translate(64 268)">
+      <circle r="4" fill="#61d67a"/><circle class="dot" r="4" fill="#61d67a"/>
+      <text x="14" y="5" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#a9aa9e">Open to projects · Córdoba, Argentina</text>
+    </g>
+  </g>
+</svg>
