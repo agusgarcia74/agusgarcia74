@@ -1,3 +1,5 @@
 body.html
 preview-*.html
 __pycache__/
+linkedin/
+make_linkedin.py

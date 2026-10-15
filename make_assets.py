@@ -79,7 +79,7 @@ def header(name, t):
         f'<text class="role r{i}" x="64" y="236" font-family="{SANS}" font-size="22" font-weight="600" fill="{t["accent"]}">{r}</text>'
         for i, r in enumerate(roles)
     )
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Juan Agustín García — Full Stack Developer">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Juan Agustín Garcia — Full Stack Developer">
   <style>
     .bands {{ animation: spin 40s linear infinite; }}
     @keyframes spin {{ to {{ transform: translateX(-{2 * 230}px); }} }}
@@ -106,7 +106,7 @@ def header(name, t):
     {planet(t, 1010, 190, 230)}
     {birds(t)}
     <text x="64" y="104" font-family="{SANS}" font-size="38" font-weight="600" fill="{t['ink']}" letter-spacing="-1">Juan Agustín</text>
-    <text x="58" y="196" font-family="{SANS}" font-size="104" font-weight="800" fill="{t['ink']}" letter-spacing="-5">García</text>
+    <text x="58" y="196" font-family="{SANS}" font-size="104" font-weight="800" fill="{t['ink']}" letter-spacing="-5">Garcia</text>
     {role_txt}
     <g transform="translate(64 268)">
       <circle r="4" fill="#61d67a"/><circle class="dot" r="4" fill="#61d67a"/>
